@@ -1,0 +1,27 @@
+{
+  "name": "cs546-final-project",
+  "version": "1.0.0",
+  "description": "CS546 final project",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node devtestdb.js",
+    "start": "node app.js",
+    "test-db": "node test-db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfining/cs546-final-project.git"
+  },
+  "author": "James Fining, Devesh Jain, Priyanka Dassani, Gopi Miyani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfining/cs546-final-project/issues"
+  },
+  "homepage": "https://github.com/jfining/cs546-final-project#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.1.10",
+    "uuid": "^3.3.2"
+  }
+}
